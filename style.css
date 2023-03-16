@@ -65,3 +65,48 @@ td {
 tr {
     /* height: 450px; */
 }
+@media screen and (max-width: 1149px) { 
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 931px) {
+    ul {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 859px) {
+    .aboutMe, .work, .contact {
+        display: block;
+    }
+
+    h1 {
+        border: none;
+        width: 100%;
+    }
+
+    p, table, .contactInfo { 
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 729px) {
+    ul {
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 494px) {
+    li a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 406px) {
+    .profile .profilePic {
+        width:100%;
+    }
+}
