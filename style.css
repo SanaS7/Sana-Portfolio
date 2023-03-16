@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: lightblue;
+}
+.navContainer {
+    width: 100%;
+    background-color: black;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+    height: 35px;
+    align-items: center;
+    
+}
+li {
+    list-style: none;
+    
+}
+li a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.profile {
+    text-align: center;
+}
+.profile .profilePic {
+    width: 400px; 
+
+}
+.aboutMe, .work, .contact {
+    display: flex;
+    width: 80%;
+    margin: 2em auto;
+    justify-content: space-between;
+}
+h1 {
+    width: 13%;
+    border-right: 4px solid black;
+}
+p, table, .contactInfo {
+    width: 85%;
+}
+.workImage {
+    width: 90%;
+}
+
+.workImage:hover {
+    transition: 0.2s ease-in;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+td {
+    width: 50%;
+}
+
+tr {
+    /* height: 450px; */
+}
+@media screen and (max-width: 1149px) { 
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 931px) {
+    ul {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 859px) {
+    .aboutMe, .work, .contact {
+        display: block;
+    }
+
+    h1 {
+        border: none;
+        width: 100%;
+    }
+
+    p, table, .contactInfo { 
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 729px) {
+    ul {
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 494px) {
+    li a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 406px) {
+    .profile .profilePic {
+        width:100%;
+    }
+}
