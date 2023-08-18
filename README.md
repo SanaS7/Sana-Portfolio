@@ -20,7 +20,7 @@ To install this project:
 
 ## Usage
 
-<img src="Images/SanaPortfolio.png" alt="Sana Porfolio">
+<img src="Images/SanaFinalPortfolio.PNG" alt="Sana Porfolio">
 
 
 ## Credits
